@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+    <AssemblyName>algorithms.fsharp</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Sortings\core.fs" />
+    <Compile Include="Sortings\BubleSort.fs" />
+    <Compile Include="Sortings\MergeSortFunctionalStyle.fs" />
+    <Compile Include="Sortings\MergeSortOOPStyle.fs" />
+    <Compile Include="Sortings\QSort.fs" />
+    <Compile Include="SoshnikovBook\1QuadraticEquation.fs" />
+    <Compile Include="SoshnikovBook\2Recursion.fs" />
+    <Compile Include="SoshnikovBook\3FunctionInNPower.fs" />
+    <Compile Include="Recursion\factorial.fs" />
+    <Compile Include="Recursion\fibonacci.fs" />
+    <Compile Include="Structures\BinaryTree.fs" />
+    <Compile Include="Structures\BTree.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+</Project>
